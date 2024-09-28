@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurezella</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Barra superior -->
+    <div class="header-container">
+        <div class="top-bar bg-primary text-white py-2">
+            <div class="container d-flex align-items-center top-bar-mobile">
+                <div class="d-flex align-items-center">
+                    <strong class="mr-4">Want to connect with us?</strong>
+                </div>
+                <div class="d-flex align-items-center top-contact-info">
+                    <div class="mr-3 d-flex align-items-center">
+                        <img src="Assets/mail.png" alt="e-mail">
+                        <span>Mail us: <a href="mailto:support@insurezella.com">support@insurezella.com</a></span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="Assets/telephone.png" alt="phone">
+                        <span>Call us: (877) 227 0774</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <div class="col-md-2 col-sm-6 custom-navbar-brand">
+                    <a class="navbar-brand" href="#"><img src="Assets/logo.png" alt="Insurezella logo" id="logo"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Find Insurance
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Option 1</a>
+                                <a class="dropdown-item" href="#">Option 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Learn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary rounded-button">Call Us Now &#8594</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="mt-5 hero_banner fade-in">
+        <div class="row align-items-center">
+            <div class="col-md-6 banner-text">
+                <h3 class="hero_banner_h3">YOUR GUIDE TO QUALITY COVERAGE</h3>
+                <p style="margin:20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet, sapien et gravida fermentum, nisl urna cursus magna, in varius ex velit et nisi.</p>
+                <a href="#" class="btn btn-primary rounded-button" data-toggle="modal" data-target="#imageModal">Find Plans</a>
+            </div>
+            <div class="col-md-6">
+                <img src="Assets/hero-bg.jpg" class="img-fluid" alt="Imagen Banner">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de imagen -->
+    <div class="modal fade fade-in" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content border-0">
+                <div class="modal-body">
+                    <img src="Assets/medicare-supplement-insurance-plan-comparison-chart.png" class="img-fluid" alt="Comparison insurance plan">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section class="container text-center my-5 fade-in">
+        <div class="row justify-content-center">
+            <div class="col-md-2 col-sm-6 service-item">
+                <img src="Assets/health-insurance.png" alt="Health Insurance">
+                <h3>Health Insurance</h3>
+            </div>
+            <div class="col-md-2 col-sm-6 service-item">
+                <img src="Assets/id.png" alt="Medicare Supplement">
+                <h3>Medicare Supplement</h3>
+            </div>
+            <div class="col-md-2 col-sm-6 service-item">
+                <img src="Assets/hospital.png" alt="Medicare Advantage">
+                <h3>Medicare Advantage</h3>
+            </div>
+            <div class="col-md-2 col-sm-6 service-item">
+                <img src="Assets/healthcare.png" alt="Life Insurance">
+                <h3>Life Insurance</h3>
+            </div>
+            <div class="col-md-2 col-sm-6 service-item">
+                <img src="Assets/insurance.png" alt="ACA obamacare">
+                <h3>ACA obamacare</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Committed Section -->
+    <section class="bg-light py-5 fade-in">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="Assets/committed-help.png" alt="Committed" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-4 section-title">Committed to help you find the right plan</h2> 
+                    <p class="mb-4">Insurance is an important financial tool that can help you protect yourself and your 
+                        loved ones from financial losses in the event of an unexpected event. 
+                        It is important to consider your individual needs and circumstances when choosing 
+                        the right insurance coverage for you and your family.</p>
+                    <a href="#" class="btn btn-primary btn-lg btn-custom mb-5">About Insurezella</a>
+                    <div class="row mt-4"> 
+                        <div class="col-md-6 d-flex align-items-center mb-3">
+                            <img src="Assets/salary.png" alt="Image 1" class="img-fluid">
+                            <div class="ml-3"> 
+                                <p class="mb-0">Save Money</p>
+                                <p class="mb-0">Compare plans</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center mb-3">
+                            <img src="Assets/agent.png" alt="Image 2" class="img-fluid">
+                            <div class="ml-3"> 
+                                <p class="mb-0">Licensed</p>
+                                <p class="mb-0">Agents</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Insurance needs -->
+    <section class="container my-5 fade-in">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Pick the insurance that suits your needs.</h2>
+        </div>
+        <div class="row">
+            <!-- Primera columna de la primera fila -->
+            <div class="col-md-4 mb-4 fade-in">
+                <div class="service-item text-center p-4">
+                    <img src="Assets/health-insurance-icon.png" alt="Service 1" class="img-fluid mb-3">
+                    <h4>Health Insurance</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <!-- Segunda columna de la primera fila -->
+            <div class="col-md-4 mb-4 fade-in">
+                <div class="service-item text-center p-4">
+                    <img src="Assets/medicare-icon.png" alt="Service 2" class="img-fluid mb-3">
+                    <h4>Medicare Supplement</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <!-- Tercera columna de la primera fila -->
+            <div class="col-md-4 mb-4 fade-in">
+                <div class="service-item text-center p-4">
+                    <img src="Assets/life-insurance-icon.png" alt="Service 3" class="img-fluid mb-3">
+                    <h4>Life Insurance</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Primera columna de la segunda fila -->
+            <div class="col-md-4 mb-4 fade-in">
+                <div class="service-item text-center p-4">
+                    <img src="Assets/medicare-advantage-icon.png" alt="Service 4" class="img-fluid mb-3">
+                    <h4>Medicare Advantage</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <!-- Segunda columna de la segunda fila -->
+            <div class="col-md-4 mb-4 fade-in">
+                <div class="service-item text-center p-4">
+                    <img src="Assets/obamacare-icon.png" alt="Service 5" class="img-fluid mb-3">
+                    <h4>ACA / Obamacare</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <!-- Tercera columna de la segunda fila -->
+            <div class="col-md-4 mb-4 fade-in">
+                <div class="service-item text-center p-4">
+                    <img src="Assets/short-term-icon.png" alt="Service 6" class="img-fluid mb-3">
+                    <h4>Short-Term Medical</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Protecting People -->
+    <section class="bg-light py-5 fade-in">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="Assets/protecting.png " alt="Committed" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-4 section-title">Protecting people, one policy at time.</h2> 
+                    <p class="mb-4">We are committed to delivering the highest standars of protection, 
+                        tailored to meet the unique needs of each individual and family. Our dedicated team of 
+                        professionals works tirelessly to offer comprehensive insurance solutions that not only
+                        safeguard your assets but also offer you the support and assistance you need in times of uncertainty. </p>
+                    <a href="#" class="btn btn-primary btn-lg btn-custom mb-5">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Here to help -->
+    <section class="container my-5">
+        <div class="text-center mb-5">
+            <h2 class="section-title">We're here to help</h2>
+        </div>
+        <div class="row">
+            <!-- Primera columna de la primera fila -->
+            <div class="col-md-6 mb-4 fade-in">
+                <div class="feature-item">
+                    <img src="Assets/doctor.jpg" alt="Feature 1" class="img-fluid mb-3">
+                    <h4>Health Insurance</h4>
+                    <p>Get the coverage you need Today. Speak with an Agent to Learn about Our Plan Options Nos. 
+                        Our Health Insurance Agency Provides you with plans that meet you needs.</p>
+                    <a href="#" class="feature-link">Learn More &#8594;</a> <!-- Flecha añadida -->
+                </div>
+            </div>
+            <!-- Segunda columna de la primera fila -->
+            <div class="col-md-6 mb-4 fade-in">
+                <div class="feature-item">
+                    <img src="Assets/family-together.jpg" alt="Feature 2" class="img-fluid mb-3">
+                    <h4>Life Insurance</h4>
+                    <p>Life insurance allows you to save and build wealth over time while also protecting your family
+                         should the worst happen</p>
+                    <a href="#" class="feature-link">Learn More &#8594;</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Primera columna de la segunda fila -->
+            <div class="col-md-6 mb-4 fade-in">
+                <div class="feature-item">
+                    <img src="Assets/medical-appointment.jpg" alt="Feature 3" class="img-fluid mb-3">
+                    <h4>Medicare Supplement</h4>
+                    <p>With Medicare supplements, you won't have medical cost surprises, which could wreck your budget. 
+                        Medicare supplements can help protect your finances from high costs, whicah can destroy your nest egg</p>
+                    <a href="#" class="feature-link">Learn More &#8594;</a>
+                </div>
+            </div>
+            <!-- Segunda columna de la segunda fila -->
+            <div class="col-md-6 mb-4 fade-in">
+                <div class="feature-item">
+                    <img src="Assets/man-signing.jpg" alt="Feature 4" class="img-fluid mb-3">
+                    <h4>Medicare Advantage</h4>
+                    <p>Medicare advantage plans cover all original medicare services, and some offer drug, vision, hearing, 
+                        dental or wellness coverage.</p>
+                    <a href="#" class="feature-link">Learn More &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Nueva sección sobre el footer -->
+    <section class="container my-4 rectangle-section fade-in">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <!-- Logo -->
+                <img src="Assets/logo.png" alt="Logo" id="logo">
+                <p>Discover the Peace of Mind You Deserve with Insurezella "Your Reliable Insurance Umbrella".</p>
+                <div class="social-icons">
+                    <a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="Assets/facebook.png" alt="Facebook" class="icon_media">
+                    </a>
+                    <a href="http://www.x.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="Assets/twitter.png" alt="Twitter" class="icon_media">
+                    </a>
+                    <a href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="Assets/instagram.png" alt="Instagram" class="icon_media">
+                    </a>
+                    <a href="http://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="Assets/linkedin.png" alt="LinkedIn" class="icon_media">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h4>Services</h4>
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <a href="#">
+                            <img src="Assets/health-insurance-icon.png" alt="Icono 1" class="icon">
+                            <span class="ml-2">Health Insurance</span>
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <a href="#">
+                            <img src="Assets/medicare-icon.png" alt="Icono 2" class="icon">
+                            <span class="ml-2">Medicare Supplement</span>
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <a href="#">
+                            <img src="Assets/life-insurance-icon.png" alt="Icono 3" class="icon">
+                            <span class="ml-2">Life Insurance</span>
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <a href="#">
+                            <img src="Assets/medicare-advantage-icon.png" alt="Icono 4" class="icon">
+                            <span class="ml-2">Medicare Advantage</span>
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <a href="#">
+                            <img src="Assets/obamacare-icon.png" alt="Icono 5" class="icon">
+                            <span class="ml-2">ACA / Obamacare</span>
+                        </a>
+                    </div>
+                </div>
+            </div>            
+            <div class="col-md-3">
+                <h4>Company</h4>
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <a href="#">
+                            <span class="ml-2">About Us</span>
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <a href="#">
+                            <span class="ml-2">Careers</span>
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <a href="#">
+                            <span class="ml-2">Industry News</span>
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <a href="#">
+                            <span class="ml-2">Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <a href="#">
+                            <span class="ml-2">Teams & Conditions</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h4>Get In Touch</h4>
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <a href="#">
+                            <img src="Assets/email.png" alt="Icono 1" class="icon">
+                            <span class="ml-2">Email: <a href="mailto:support@insurezella.com">support@insurezella.com</a></span>
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <img src="Assets/telephone_black.png" alt="Icono 2" class="icon">
+                        <span class="ml-2">Tel: +18772270774</span>
+                    </div>
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <img src="Assets/schedule-button.png" alt="Icono 3" class="icon">
+                        <span class="ml-2">Hours: Mon-Fri 9:00 Am - 5:00 PM</span>
+                    </div>
+                    <div class="col-12 d-flex align-items-center mb-3">
+                        <img src="Assets/contact.png" alt="Icono 4" class="icon">
+                        <span class="ml-2">300 SE 2nd Street Suite 600 Ft. Lauderdale FL 33301</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+
+    <button id="scrollTopBtn"><img src="Assets/top-arrow_.png" alt="Icono 4"></button>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
